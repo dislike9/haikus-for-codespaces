@@ -1,0 +1,277 @@
+.header_container{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(#3742fa, #fff);
+}
+.nav_style{
+  position: absolute;
+  font-size: 20px;
+  list-style-type: none;
+  left: 1300px;
+  top: 25px;
+}
+.a_style{
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: black;
+}
+.a_style i{
+    margin-right: 15px;
+}
+
+.content_container{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 86vh;
+  background: #fff;
+  overflow: hidden;
+}
+.logo_container{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 890px;
+  top: 60px;
+}
+.logo_image{
+  width: 430px;
+  height: 430px;
+}
+.bg_box{
+  position: absolute;
+  width: 600px;
+  height: 430px;
+  left: 1090px;
+  top: 60px;
+  border-radius: 90px;
+  background: linear-gradient(to left, #3742fa, #fff);
+}
+.h1_box{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 130px;
+  left: 150px;
+  color: #3B3B98;
+  font-family: 'Bebas Neue', cursive;
+}
+.h5_box{
+  position: absolute;
+  width: 460px;
+  height: auto;
+  top: 200px;
+  left: 160px;
+  color: #636e72;
+  font-family: 'Bebas Neue', cursive;
+}
+.btn_box{
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 315px;
+  left: 250px;
+}
+.btn_style{
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #3742fa;
+  font-family: 'Bebas Neue', cursive;
+}
+.btn_style:hover{
+  background: linear-gradient(#3742fa, #fff);
+}
+.p_box{
+  position: absolute;
+  top: 360px;
+  left: 260px;
+  text-align: center;
+}
+
+.bg-modal-reg{/*============================= register pop up modal=================================*/
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 4px;
+    text-align: center;
+    padding: 75px 20px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+.label-fname{
+  position: absolute;
+  top: 145px;
+  left: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+.label-lname{
+  position: absolute;
+  top: 210px;
+  left: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+.label-add{
+  position: absolute;
+  top: 275px;
+  left: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+.label-uname{
+  position: absolute;
+  top: 340px;
+  left: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+.label-pass{
+  position: absolute;
+  top: 405px;
+  left: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+.p_box1{
+  font-family: 'Bebas Neue', cursive;
+  position: absolute;
+  top: 540px;
+  left: 120px;
+}
+.h2-font{
+  color: #3B3B98;
+  font-family: 'Bebas Neue', cursive;
+}
+.input-field{
+  width: 60%;
+  padding:10px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  margin: 20px 130px;
+  display: block;
+  font-family: 'Bebas Neue', cursive;
+}
+.submit-btn{
+  position: absolute;
+  left: 130px;
+  width: 40%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 20px 20px;
+  border:0;
+  outline:none;
+  border-radius: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+.submit-btn:hover{
+  background: linear-gradient(#3B3B98, #fff);
+}
+/*============================= log in pop up modal=================================*/
+.bg-modal-login{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal-content-login{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 4px;
+    text-align: center;
+    padding: 115px 20px;
+    position: relative;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.label-uname-log{
+  position: absolute;
+  top: 145px;
+  left: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+.label-pass-log{
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+.h2-font-log{
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  color: #3B3B98;
+  font-family: 'Bebas Neue', cursive;
+}
+.link-forgotpass{
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  font-size: 13px;
+  font-family: 'Bebas Neue', cursive;
+}
+.p_box2{
+  position: absolute;
+  top: 350px;
+  left: 125px;
+  font-family: 'Bebas Neue', cursive;
+}
+.login-btn{
+  position: absolute;
+  left: 130px;
+  width: 40%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: 30px 20px;
+  border:0;
+  outline:none;
+  border-radius: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+.login-btn:hover{
+  background: linear-gradient(#3B3B98, #fff);
+}
+

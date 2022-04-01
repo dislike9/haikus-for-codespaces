@@ -1,0 +1,118 @@
+.side_navbar_container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-right: 1px solid rgb(235,235,235);
+  width: 225px;
+  height: 100%;
+  padding-top: 220px;
+  background: #ecf0f1;
+}
+.logo_container{
+  border: 1px solid black;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 50px;
+  top: 60px;
+}
+.logo_image{
+  width: 130px;
+  height: 130px;
+}
+.side_navbar_container ul {
+  padding: 0;
+  margin:0;
+}
+.side_navbar_container li {
+  list-style-type: none;
+  margin: 0;
+  position: relative;
+}
+.side_navbar_container li:before {
+  content: "";
+  font-family: 'icomoon';
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  position: absolute;
+  display: block;
+  line-height: 40px;
+  color: rgb(102,102,102);
+  right: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+.side_navbar_container i:nth-child(1):before {content: "\63";}
+.side_navbar_container i:nth-child(2):before {content: "\64";}
+.side_navbar_container i:nth-child(3):before {content: "\62";}
+.side_navbar_container i:nth-child(4):before {content: "\65";}
+
+.side_navbar_container ul a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font:16px/40px helvetica,verdana,sans-serif;
+  box-sizing:border-box;
+  border-bottom: 1px solid rgb(235,235,235);
+  display: block;
+  box-shadow:inset 0 1px 0 rgb(255,255,255);
+  text-indent: 20px;
+}
+.side_navbar_container li:hover a {
+  background-color: rgb(255,255,255);
+  box-shadow: 1px 0 0 rgb(255,255,255),inset 5px 0 0 -1px rgb(55, 66, 250);
+}
+/*=======================================================================*/
+.dashboard_box{
+  border: 1px solid black;
+  width: 1240px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left: 250px;
+  background-color: #ecf0f1;
+  padding: 5px;
+}
+.dashboard_box h3{
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+/*===============================approval table=====================================*/
+.table_container{
+  width: 1240px;
+  height: auto;
+  position: relative;
+  top: 250px;
+  left: 250px;
+}
+.table_container i{
+  position: absolute;
+  left: 169px;
+  top: 8px;
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background-color: #ecf0f1;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
